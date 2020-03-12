@@ -1,0 +1,23 @@
+[package]
+name = "pattern0"
+version = "0.1.0"
+authors = ["Daogang Tang <daogangtang@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "main1"
+path = "src/main1.rs"
+
+[[bin]]
+name = "main2"
+path = "src/main2.rs"
+
+[[bin]]
+name = "main3"
+path = "src/main3.rs"
+
