@@ -1,0 +1,21 @@
+[package]
+name = "pty"
+version = "0.1.0"
+authors = ["Daogang Tang <daogangtang@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.17.0"
+libc = "0.2.68"
+
+
+
+[[bin]]
+name = "p10"
+path = "src/p10.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
