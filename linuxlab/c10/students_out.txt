@@ -1,0 +1,3 @@
+lily, female, 18, 93, 4.20
+bob, male, 18, 97, 4.50
+Charlie, male, 18, 103, 4.90
